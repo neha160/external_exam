@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtUpadateId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/edtUpadeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Entre Name of Pizza"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/edtUpdatequantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Quantity of Pizza"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/edtUpdatePrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Price of Pizza"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/edtUpdateSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Size of Pizza"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+</LinearLayout>
